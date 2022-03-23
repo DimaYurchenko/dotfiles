@@ -1,7 +1,7 @@
 # How this stuff works🤨
 
 Configs are stored in a **Git bare repository**
-in `$HOME/.cfg ` using a special alias so that commands are run against that repository and not the usual .git local folder, which would interfere with any other Git repositories around.
+in `$HOME/.cfg` using a special alias so that commands are run against that repository and not the usual .git local folder, which would interfere with any other Git repositories around.
 
 To get started:
 
