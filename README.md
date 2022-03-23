@@ -48,3 +48,4 @@ cfg checkout
 ```
 cfg config --local status.showUntrackedFiles no
 ```
+Inspired by [this article](https://www.atlassian.com/git/tutorials/dotfiles).
