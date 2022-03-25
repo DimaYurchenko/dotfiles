@@ -22,6 +22,10 @@ set laststatus=2 "makes powerline always visible
 set nocompatible
 filetype off
 
+" use line cursor in insert mode
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
