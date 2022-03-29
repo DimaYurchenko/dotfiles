@@ -7,15 +7,15 @@ alias e='exit'
 alias ll='ls -lah -A -X --group-directories-first'
 alias dt='cd ~/Desktop'
 alias confish='vim ~/.config/fish/config.fish'
-alias t='touch'
 alias mv='mv -i'
 alias rm='rm -i'
 alias copy='xclip -sel clip'
-alias aptup='sudo apt update && sudo apt upgrade'
 alias ij='intellij-idea-ultimate'
 alias starwars='telnet towel.blinkenlights.nl'
-
 alias cfg='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+abbr t 'touch'
+abbr aptup 'sudo apt update && sudo apt upgrade'
 
 function mkcd
   mkdir $argv
