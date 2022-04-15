@@ -5,7 +5,6 @@ end
 
 alias ll='ls -lah -A -X --group-directories-first'
 alias dt='cd ~/Desktop'
-alias confish='vim ~/.config/fish/config.fish'
 alias mv='mv -i'
 alias rm='rm -i'
 alias copy='xclip -sel clip'
@@ -18,7 +17,9 @@ abbr t 'touch'
 abbr h 'history'
 abbr aptup 'sudo apt update && sudo apt upgrade'
 abbr ports 'netstat -tulanp'
-abbr venv 'python3 -m venv'
+abbr confish 'vim ~/.config/fish/config.fish'
+abbr sfish 'source ~/.config/fish/config.fish'
+abbr venv 'python3 -m venv venv --prompt=""'
 
 function mkcd
   mkdir $argv
