@@ -18,6 +18,7 @@ abbr t 'touch'
 abbr h 'history'
 abbr aptup 'sudo apt update && sudo apt upgrade'
 abbr ports 'netstat -tulanp'
+abbr venv 'python3 -m venv'
 
 function mkcd
   mkdir $argv
